@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container
+{
+    display: flex;
+}
+
+main 
+{
+    width: 100%;
+    padding: 20px;
+}
+
+.sidebar 
+{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.top-section
+{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo
+{
+    font-size: 30px;
+}
+
+.bars
+{
+    font-size: 25px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.link
+{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+
+.link:hover 
+{
+    background-color: aquamarine;
+    color: black;
+    transition: all 0.6s;
+}
+
+.active 
+{
+    background-color: aquamarine;
+    color: black;
+}
+
+.text 
+{
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
